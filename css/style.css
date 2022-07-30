@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:wght@300&family=Saira&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background: url('../images/test.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+#logo-tec {
+    width: 11.5vh;
+    height: 12vh;
+    position: relative;
+    left: 15vh;
+    top: 4.5vh;
+}
+
+#navigation-bar {
+    float: right;
+    margin-right: 12vh;
+}
+
+#qaqas-span {
+    position: fixed;
+    left: 30%;
+    bottom: -0.5vh;
+    margin: 0 auto;
+}
+
+#qaqas-img {
+    display: inline;
+    width: 85vh;
+    height: 88vh;
+}
+
+#arrow {
+    position: relative;
+    width: 3.5vh;
+    top: 0.7vh;
+    left: 2vh;
+
+}
+
+#arrow:hover {
+    cursor: pointer;
+}
+
+#section-first {
+    position: relative;
+    top: 15vh;
+}
+
+#left-span {
+    display: inline;
+    position: relative;
+    left: 120px;
+}
+
+#site-par {
+    display: inline-block;
+    margin-top: 30vh;
+    color: white;
+    font-size: 2.5vh;
+    margin-left: 14vh;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+#right-span {
+    float: right;
+    margin-right: 10vh;
+}
+
+#social-medias {
+    float: right;
+    margin-right: 20vh;
+    margin-top: 30vh;
+}
+
+#navigation-bar ul {
+    margin-top: 7vh;
+}
+
+#navigation-bar ul li {
+    display: inline;
+}
+
+#navigation-bar ul li a {
+    font-family: 'Saira', sans-serif;
+    transition: 1s;
+    text-transform: uppercase;
+    font-size: 2.5vh;
+    color: white;
+}
+
+#navigation-bar ul li a:hover {
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 5px;
+    text-shadow: 0 0 5px #ffffff;
+}
+
+
+.nav-list-items {
+    margin-left: 60px;
+}
+
+.right-paragraphs {
+    text-transform: uppercase;
+    color: white;
+    display: inline-block;
+}
+
+.left-p {
+    text-transform: uppercase;
+    color: white;
+    display: inline-block;
+}
+
+.nw-rls {
+    font-family: 'Saira', sans-serif;
+    font-size: 3vh;
+    letter-spacing: 3px;
+}
+
+.vr-word {
+    width: 300px;
+    line-height: 8vh;
+    font-family: 'Kanit', sans-serif;
+    font-size: 8vh;
+}
+
+.buy-now {
+    display: inline;
+    color: white;
+    text-transform: uppercase;
+    font-size: 3vh;
+    font-family: 'Kanit', sans-serif;
+}
+
+.discount {
+    font-family: 'Kanit', sans-serif;
+    font-size: 4vh;
+    line-height: 4.5vh;
+}
+
+.inline-disc {
+    float: right;
+}
+
+.lorem-p {
+    margin-top: 3vh;
+    text-align: left;
+    font-family: 'Kanit', sans-serif;
+    font-size: 2vh;
+    width: 40vh;
+
+}
+
+.fa-brands {
+    margin-left: 1vh;
+    display: inline-block;
+    border-radius: 6vh;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+    background-color: wheat;
+}
+
+.fa-brands:hover {
+    cursor: pointer;
+}
